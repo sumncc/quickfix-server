@@ -1,0 +1,17 @@
+{
+  "groups": [
+    {
+      "name": "custom",
+      "type": "org.gershaw.quickfixj.springboot.server.component.CustomProperties",
+      "sourceType": "org.gershaw.quickfixj.springboot.server.component.CustomProperties"
+    }
+  ],
+  "properties": [
+    {
+      "name": "custom.property",
+      "type": "java.lang.String",
+      "sourceType": "org.gershaw.quickfixj.springboot.server.component.CustomProperties"
+    }
+  ],
+  "hints": []
+}

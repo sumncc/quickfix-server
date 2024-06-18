@@ -205,7 +205,7 @@ Explanation:
  
 These examples showcase various types of FIX messages, illustrating how different trading-related activities can be communicated using the FIX protocol. Each message type serves a specific purpose and contains a unique set of fields relevant to its function.
 
-
+`https://github.com/ggershaw/Examples/tree/main/spring-boot-starter`
 
 # Test With
 http://localhost:8080/send-server/buy?fixVersion=FIXT.1.1&messageType=Quote
@@ -214,6 +214,14 @@ http://localhost:8080/send-server/quote?fixVersion=FIXT.1.1&messageType=Quote
 
 dictinary
 https://fiximate.fixtrading.org/
+
+
+docs
+https://www.quickfixj.org/usermanual/2.3.0/usage/application.html
+
+https://github.com/quickfix-j/quickfixj/blob/master/customising-quickfixj.md
+
+https://www.fixtrading.org/online-specification/
 
 
 
