@@ -1,6 +1,6 @@
-package org.gershaw.quickfixj.springboot.client;
+package org.raj.quickfixj.springboot.client;
 
-import org.gershaw.quickfixj.springboot.server.BootifiedServer;
+import org.raj.quickfixj.springboot.server.BootifiedServer;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
 

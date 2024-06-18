@@ -1,4 +1,4 @@
-package org.gershaw.quickfixj.springboot.server.service;
+package org.raj.quickfixj.springboot.server.service;
 
 import io.allune.quickfixj.spring.boot.starter.model.FromApp;
 import io.allune.quickfixj.spring.boot.starter.template.QuickFixJTemplate;
@@ -15,13 +15,12 @@ import java.util.stream.Collectors;
 import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
 import org.apache.logging.log4j.util.Strings;
-import org.gershaw.quickfixj.springboot.server.component.MarketDataIncrementalRefreshFactory;
-import org.gershaw.quickfixj.springboot.server.component.MarketDataIncrementalRefreshFactory.Security;
-import org.gershaw.quickfixj.springboot.util.Utils;
+import org.raj.quickfixj.springboot.server.component.MarketDataIncrementalRefreshFactory;
+import org.raj.quickfixj.springboot.server.component.MarketDataIncrementalRefreshFactory.Security;
+import org.raj.quickfixj.springboot.util.Utils;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Value;
-import org.springframework.boot.autoconfigure.condition.ConditionalOnProperty;
 import org.springframework.context.event.EventListener;
 import org.springframework.stereotype.Service;
 import org.springframework.util.CollectionUtils;

@@ -1,26 +1,16 @@
-package org.gershaw.quickfixj.springboot.server.component;
+package org.raj.quickfixj.springboot.server.component;
 
 import io.allune.quickfixj.spring.boot.starter.template.QuickFixJTemplate;
 import lombok.extern.slf4j.Slf4j;
-import org.gershaw.quickfixj.springboot.util.Utils;
-import org.springframework.beans.factory.annotation.Value;
-import org.springframework.boot.autoconfigure.condition.ConditionalOnProperty;
 import org.springframework.context.annotation.Lazy;
 import org.springframework.stereotype.Service;
 import quickfix.*;
 import quickfix.field.*;
-import quickfix.fix50sp2.MarketDataIncrementalRefresh;
-import quickfix.fix50sp2.MarketDataRequest;
 import quickfix.fix50sp2.Quote;
 import quickfix.fix50sp2.QuoteRequest;
 
 import quickfix.fix50sp2.ExecutionReport;
 import quickfix.fix50sp2.NewOrderSingle;
-
-
-
-import java.util.Arrays;
-import java.util.Map;
 
 //@ConditionalOnProperty(prefix = "quickfixj.client.requester", name = "request", havingValue = "true")
 @Service("MarketDataRequestService")

@@ -1,4 +1,4 @@
-package org.gershaw.quickfixj.springboot.server.component;
+package org.raj.quickfixj.springboot.server.component;
 
 import org.springframework.boot.context.properties.ConfigurationProperties;
 import org.springframework.context.annotation.Configuration;

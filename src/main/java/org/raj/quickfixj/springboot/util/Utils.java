@@ -1,4 +1,4 @@
-package org.gershaw.quickfixj.springboot.util;
+package org.raj.quickfixj.springboot.util;
 
 import io.allune.quickfixj.spring.boot.starter.template.QuickFixJTemplate;
 import lombok.NoArgsConstructor;

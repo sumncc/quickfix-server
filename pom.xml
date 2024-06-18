@@ -20,7 +20,7 @@
         <profile>
             <id>server</id>
             <properties>
-                <spring.boot.mainclass>org.gershaw.quickfixj.springboot.server.BootifiedServer</spring.boot.mainclass>
+                <spring.boot.mainclass>org.raj.quickfixj.springboot.server.BootifiedServer</spring.boot.mainclass>
             </properties>
         </profile>
     </profiles>

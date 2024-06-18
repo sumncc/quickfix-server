@@ -1,4 +1,4 @@
-package org.gershaw.quickfixj.springboot.server.component;
+package org.raj.quickfixj.springboot.server.component;
 
 import lombok.NonNull;
 import quickfix.field.MDBookType;

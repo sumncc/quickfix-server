@@ -1,4 +1,4 @@
-package org.gershaw.quickfixj.springboot.exception;
+package org.raj.quickfixj.springboot.exception;
 
 import quickfix.FieldNotFound;
 
